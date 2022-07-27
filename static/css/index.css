@@ -1,0 +1,147 @@
+@charset "utf-8";
+
+/*--- common class ---*/
+html, body, div, span, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, strong, sub, sup, var,
+b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, embed, input, select, textarea, button {margin:0;padding:0;}
+body {color:#111;font-size:0.875em;line-height:1.5;font-family:"맑은 고딕","Malgun Gothic",'돋움',Dotum,AppleGothic,Tahoma,Helvetica,sans-serif;}
+h1, h2, h3, h4, h5, h6 {font-size:1em;/*font-weight:normal;*/font-family:"맑은 고딕","Malgun Gothic",'돋움',Dotum,AppleGothic,Tahoma,Helvetica,sans-serif;}
+input, button, textarea, select {font-size:1em;font-family:"맑은 고딕","Malgun Gothic",'돋움',Dotum,AppleGothic,Tahoma,Helvetica,sans-serif;}
+code, pre {font-size:1em;}
+address, em, cite {font-style:normal;}
+img {border:0 none;vertical-align:top;}
+hr {display:none;}
+table {border-collapse:separate;border-spacing:0;table-layout:fixed; width:auto; width:100%;}
+caption, legend {width:0;height:0;overflow:hidden;visibility:hidden;font-size:0;line-height:0;}
+th, td {font-weight:normal;}
+li {list-style-type:none;}
+fieldset {border:0 none;}
+select {height:28px;padding:6px 4px 5px 7px;font-size:1em;line-height:1.5;color:#646464;border:1px solid #646464;}
+textarea {padding:5px;border:1px solid #646464;line-height:1.167;}
+label, button {cursor:pointer;}
+button {overflow:visible;margin:0;padding:0;border:none;background:none;cursor:pointer;}
+button::-moz-focus-inner {border:0;padding:0;}
+button {overflow:visible;border:none;background:none;background:transparent;vertical-align:top;font-family:inherit;white-space:nowrap;text-decoration:none;/*outline:0;*/}
+
+a {color:#111;text-decoration:none;}
+a:hover, a:focus, a:active {color:#000;text-decoration:underline;}
+
+html, body {min-height:100%;height:100%;}
+
+/* ----------------------------------------------------------
+	 LAYOUT : #wrapper, #header
+---------------------------------------------------------- */
+#wrapper {width:100%;height:100%;min-height:100%;min-width:1200px;}
+#wrapper:before {content:'';position:absolute;left:220px;top:0;bottom:0;width:1px;border-left:1px solid #ddd;}
+
+#header {position:relative;width:100%;height:110px;border-bottom:1px solid #e4e4e4;background:#641601;color:#bcbdbf;}
+#header .logo {position:absolute;left:15px;bottom:20px;}
+#header .logo a {overflow:hidden;display:block;width:140px;padding:38px 0 0;height:0;background:url(/static/images/logo.png) no-repeat 0 0;}
+#header .nav_gnb {position:absolute;left:220px;bottom:22px;}
+#header .nav_gnb li {display:inline-block;}
+#header .nav_gnb li a {position:relative;display:block;font-size:13px;line-height:32px;padding:0 20px;font-weight:bold;color:#bcbdbf;}
+#header .nav_gnb li a:hover, #header .nav_gnb li a:focus {color:#f36910;text-decoration:none;}
+#header .nav_gnb li.on a {color:#f36910;}
+#header .nav_gnb li.on a:before {content:'';position:absolute;left:20px;right:20px;bottom:0;height:2px;background:#f36910;}
+
+#header .area_login {position:absolute;right:20px;top:15px;font-size:12px;line-height:20px;}
+#header .area_login .info {display:inline-block;border:1px solid #464950;padding:3px 3px 3px 14px;border-radius:15px;}
+#header .area_login .info p, #header .area_login .info dl, #header .area_login .info dl dd {display:inline-block;vertical-align:top;*display:inline;*zoom:1;}
+#header .area_login .info dl dt {position:absolute;left:-9999px;top:-9999px;}
+#header .area_login .info dl dd {margin:0 0 0 6px;}
+#header .area_login .info dl dt + dd {font-weight:bold;color:#fff;}
+#header .area_login .info dl dd a {position:relative;display:inline-block;padding-right:24px;font-weight:normal;color:#bcbdbf;*display:inline;*zoom:1;}
+#header .area_login .info dl dd a:after {content:'';position:absolute;right:0;top:0;display:inline-block;width:20px;height:20px;border-radius:10px;background:url(/static/images/logo.png) no-repeat -2px -2px;*display:inline;*zoom:1;}
+#header .area_login .info dl dd a:hover, #header .area_login .info dl dd a:focus {text-decoration:none;color:#f36910;}
+#header .area_login .info dl dd a:hover:after, #header .area_login .info dl dd a:focus:after {background-position:-2px -26px;}
+#header .area_login .btn {display:inline-block;}
+#header .area_login .btn a {display:inline-block;padding:3px 12px;border:1px solid #464950;border-radius:15px;color:#bcbdbf;}
+#header .area_login .btn a:hover,#header .area_login .btn a:focus {border-color:#fff;color:#fff;text-decoration:none;}
+
+/* ----------------------------------------------------------
+	 LAYOUT : #container / #aside , #content
+---------------------------------------------------------- */
+#container {overflow:hidden;position:relative;width:100%;min-height:300px;}
+#container:before {content:'';position:absolute;left:220px;top:0;bottom:0;width:1px;border-left:1px solid #ddd;}
+
+#aside {width:220px;float:left;}
+#aside h2 {position:relative;padding:10px;font-size:14px;line-height:20px;}
+#aside h2:after {content:'';position:absolute;display:block;top:17px;right:15px;width:12px;height:7px;background:url(/static/images/arr3_12x7_666.png) no-repeat 0 0;}
+#aside .nav_snb {border-top:1px solid #ddd;background:#f2f2f2;}
+#aside .nav_snb li a {position:relative;display:block;padding:11px 15px;font-size:12px;line-height:20px;}
+#aside .nav_snb li a:hover, #aside .nav_snb li a:focus {text-decoration:none;font-weight:bold;}
+#aside .nav_snb > li {border-bottom:1px solid #ddd;}
+#aside .nav_snb > li.on > a {color:#f36910;}
+#aside .nav_snb > li ul {padding:0 0 10px;}
+#aside .nav_snb > li ul li a {padding-left:30px;}
+#aside .nav_snb > li ul li a:before {position:absolute;left:20px;top:11px;content:'-'}
+#aside .nav_snb > li ul li a:hover, #aside .nav_snb > li ul:focus {text-decoration:underline;}
+#aside .nav_snb > li.on > a:after {-webkit-transform:rotate(-180deg);-moz-transform:rotate(-180deg);transform:rotate(-180deg);background:url(/static/images/arr3_12x7_f36910.png) no-repeat 0 0;}
+#aside .nav_snb > li ul li.on {font-weight:bold;}
+#aside .nav_snb > li ul li.on a {color:#f36910;}
+
+#content {position:relative;margin:0 0 0 220px;padding:20px 30px;}
+#content .tit_page {position:relative;padding:10px 0;margin:0 0 20px;font-size:18px;line-height:24px;border-bottom:1px solid #111;font-weight:normal;}
+#content .tit_page h1 {font-size:22px;line-height:26px;font-weight:normal;}
+#content .tit_page .navi {position:absolute;bottom:7px;right:0;font-size:12px;}
+
+/* ----------------------------------------------------------
+	 LAYOUT : 레이어
+---------------------------------------------------------- */
+/* overlay영역 */
+.modal_overlay {position:fixed;left:0;top:0;width:100%;height:100%;min-width:100%;min-height:100%;background:#000;background:rgba(0,0,0,0.6);opacity:0.6;filter:alpha(opacity=60);z-index:900;}
+
+/* 레이어팝업1 */
+.pop_modal1 {display:none;position:relative;width:400px;margin:auto;padding:0 40px 40px;background:#fff;z-index:1000;}
+.pop_modal1.open {display:block;position:absolute;left:50%;top:50%;margin-left:-240px;}
+.pop_modal1 .header {position:relative;margin:0 0 33px;padding:24px 0;border-bottom:1px solid #f36910;text-align:center;}
+.pop_modal1 .header:after, .pop_modal1 .header h2 {display:inline-block;vertical-align:middle;}
+.pop_modal1 .header:after {content:'';width:1px;height:60px;}
+.pop_modal1 .header h2 {max-width:304px;font-size:22px;line-height:28px;font-weight:normal;}
+.pop_modal1 .header button {overflow:hidden;display:block;position:absolute;right:0;top:36px;width:32px;height:0;padding:32px 0 0;color:#888;background:#fff url(/static/images/icon_close.png) no-repeat 50% 50%;}
+.pop_modal1 .content + .btn_area1 {border-top:1px solid #e7e7e7;margin:35px 0 0;padding:30px 0 0;}
+
+/* 윈도우팝업 */
+.pop_win {position:relative;padding:0 20px 20px;}
+.pop_win .header {position:relative;margin:0 0 33px;padding:10px 0;border-bottom:1px solid #f36910;text-align:center;}
+.pop_win .header:after, .pop_win .header h1 {display:inline-block;vertical-align:middle;}
+.pop_win .header:after {content:'';width:1px;height:44px;}
+.pop_win .header h1 {max-width:90%;font-size:16px;line-height:22px;font-weight:normal;}
+.pop_win .content + .btn_area1 {border-top:1px solid #e7e7e7;margin:37px 0 0;padding:30px 0 0;}
+
+/* ----------------------------------------------------------
+	로그인페이지
+---------------------------------------------------------- */
+#wrapper.page_login {position:relative;min-width:0;background-color:#641601;}
+#wrapper.page_login:before {display:none;}
+#wrapper.page_login #content {position:absolute;left:50%;top:50%;width:520px;margin:-265px 0 0 -260px;}
+#wrapper.page_login h1 {height:0;overflow:hidden;padding-top:53px;background:url("/static/images/logo.png") 50% 0 no-repeat;margin-bottom:20px;}
+#wrapper.page_login .box {width:426px;padding:55px 47px 43px 47px;background-color:#fff;border-radius:10px 8px;text-align:center}
+#wrapper.page_login .box > p {margin:0 0 35px;font-size:15px;color:#641601;}
+#wrapper.page_login .box fieldset {text-align:left;}
+#wrapper.page_login .box fieldset > div {margin-bottom:10px;}
+#wrapper.page_login .box fieldset > div + button {margin-top:20px;height:54px;}
+#wrapper.page_login .box fieldset > div + button {min-width:36px;padding:0 12px 2px;border:1px solid #f36910;background:#f36910;font-size:15px;line-height:30px;border-radius:2px;color:#fff;text-decoration:none !important;}
+#wrapper.page_login .box fieldset > div + button:hover,
+#wrapper.page_login .box fieldset > div + button:focus {background:#ee5400;border-color:#ee5400;color:#fff !important;text-decoration:none !important;}
+#wrapper.page_login .box fieldset > div + button a {color:#fff;}
+#wrapper.page_login .box .bottom {position:relative;margin:20px 0 0;line-height:26px;text-align:left;}
+#wrapper.page_login .box .bottom .btn_com {position:absolute;right:0;top:0;}
+#wrapper.page_login input.text {width:100%;height:52px;padding:15px 19px;font-size:15px;line-height:22px;box-sizing:border-box;}
+#wrapper.page_login input[type="password"] {background-color:#f6f6f6;}
+#wrapper.page_login input[type="password"]:focus {background-color:initial;}
+#wrapper.page_login .box + p {color:#ccd1dd;font-size:12px;text-align:center;margin-top:17px;}
+
+/* ----------------------------------------------------------
+	 LAYOUT : 가이드용
+---------------------------------------------------------- */
+h2.guide, h3.guide {font-size:12px;}
+h2.guide {position:relative;margin:30px 0 10px;padding:6px 0 6px 10px;background:#666;color:#fff;font-weight:normal;}
+h3.guide {position:relative;margin:10px 0;padding:4px 0 4px 10px;background:#f2f2f2;font-weight:normal;border-bottom:1px solid #555;}
+
+/* ---------------------------------------------------------
+	CONTENT 공통 :  폼유형
+--------------------------------------------------------- */
+.w80 {width:80% !important;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+.w100 {width:100% !important;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+input.text.w100 {height:30px;}
+input.text.w80 {height:30px;}

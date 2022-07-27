@@ -1,0 +1,860 @@
+﻿@charset "utf-8";
+/* ----------------------------------------------------------
+	# 한화손해보험 대표홈페이지 2017 리뉴얼
+	# 공통컨텐츠 페이지별 스타일
+---------------------------------------------------------- */
+/* ---------------------------------------------------------
+	page : 보험상품
+--------------------------------------------------------- */
+/* 신의(信義)건강보험 팝업 */
+.visual_per2 li {height:auto;padding-left:0;padding-right:170px;}
+.visual_per2 li:before {left:auto;right:0;background:url(../images/company/per01_0205.png) 0 0 no-repeat;}
+.visual_per2 li + li:before {background:url(../images/company/per01_0206.png) 0 0 no-repeat;}
+.visual_per2 li:after {display:none;}
+.visual_per2 li p:first-child {display:block;height:0;padding-top:39px;overflow:hidden;background:url(../images/product/pro0312_01.png) 0 0 no-repeat;}
+.visual_per2 li + li p:first-child {background:url(../images/product/pro0312_02.png) 0 0 no-repeat;}
+
+/* 아이콘설정 : 한화화재배상책임보험 */
+.icon_pro1 {padding:30px 20px;}
+.icon_pro1 ul > li span {position:relative;display:inline-block;text-align:center;font-weight:lighter;}
+.icon_pro1 ul > li span:before {content:'';display:block;width:42px;height:43px;margin:0 auto 7px;background:url(../images/contents/icon_pro1.png) no-repeat 0 0;}
+.icon_pro1 ul > li .ic2:before {background-position:-42px 0;}
+.icon_pro1 ul > li .ic3:before {background-position:-84px 0;}
+.icon_pro1 ul > li .ic4:before {background-position:-126px 0;}
+.icon_pro1 ul > li .ic5:before {background-position:-168px 0;}
+.icon_pro1 ul > li .ic6:before {background-position:-210px 0;}
+
+/* ---------------------------------------------------------
+	page : 온라인고객센터 > 자동차계약변경
+--------------------------------------------------------- */
+/* 자동차 종류별 긴급출동 서비스 내용 분류 탭 */
+.tab_iconset2 {padding-top:138px;}
+.tab_iconset2:before {content:'';position:absolute;left:0;right:0;top:136px;bottom:0;border:2px solid #111;}
+.tab_iconset2 .heading {height:136px;}
+.tab_iconset2 .heading a {padding-left:162px;}
+.tab_iconset2 .heading a:before {content:'';position:absolute;top:50%;left:60px;display:block;width:70px;height:70px;margin-top:-35px;background:url(../images/contents/icon_tab.png) 0 0 no-repeat;}
+.tab_iconset2 .heading a strong {display:block;color:#111;font-size:16px;}
+.tab_iconset2 .heading a strong + span {display:block;margin:3px 0 0 0;line-height:19px;}
+.tab_iconset2 .heading.t1 a:before {background-position:0 0;}
+.tab_iconset2 .heading.t2 a:before {background-position:-70px 0;}
+.tab_iconset2 .heading.on a span {font-weight:lighter;color:#555;}
+
+/* 긴급출동서비스 */
+.visual_carcontract .img1 {background:url(../images/contents/visual_bg3.jpg) no-repeat 0 -680px;}
+.visual_carcontract .img2 {background:url(../images/contents/visual_bg3.jpg) no-repeat -490px -680px;}
+
+/* ECO마일리지사진전송 : 탭2  */
+.visual_eco_info {text-align:center;}
+.visual_eco_info .heading {margin:60px 0 50px;}
+.visual_eco_info .heading h3 {overflow:hidden;margin:0 auto 20px;padding:96px 0 0 0;width:475px;height:0;background:url(../images/contents/visual_eco_info.png) no-repeat 0 0;}
+.visual_eco_info .heading h4 {overflow:hidden;margin: 60px auto 20px; width:350px;height: 30px;background:url(../images/contents/visual_eco_info1.png) no-repeat 0 -99px;}
+.visual_eco_info .heading strong {display:block;margin-bottom:20px;font-size:16px;font-weight:lighter;}
+.visual_eco_info .heading em {font-weight:bold;}
+.visual_eco_info .box h4 {overflow:hidden;margin:0 auto 40px;padding:28px 0 0 0;width:264px;height:0;background:url(../images/contents/visual_eco_info.png) no-repeat 0 -99px;}
+.visual_eco_info .box .col2 {overflow:hidden;}
+.visual_eco_info .box .col2 li {float:left;width:50%;border-left:1px solid #e7e7e7;margin-left:-1px;box-sizing:border-box;}
+.visual_eco_info .box .col2 li .tit {overflow:hidden;display:block;margin:0 auto 20px;padding:341px 0 0 0;width:380px;height:0;background:url(../images/contents/visual_eco_info.png) no-repeat 0 -160px;}
+.visual_eco_info .box .col2 li + li .tit {background-position:-380px -160px;}
+.visual_eco_info .box .col2 li strong {font-weight:lighter;font-size:18px;}
+.visual_eco_info .box .col2 li p {margin-top:7px;font-size:13px;}
+.visual_eco_info .data_table {overflow:hidden;display:block;margin:35px auto 0;padding:176px 0 0 0;width:980px;height:0;background:url(../images/contents/visual_eco_info9.png) no-repeat 0 100%;border:0;}
+.visual_eco_info .ex {font-size: 12px;color:#555;margin-top: 15px;text-align: right;}
+
+.visual_eco_info.t1 h3 {padding:104px 0 0 0;width:645px;height:0;background:url(../images/contents/visual_eco_info2.png) 0 0 no-repeat;}
+.visual_eco_info.t1 .box2 {position:relative;margin:0 auto;width:924px;height:375px;background:url(../images/contents/visual_eco_info2.png) right -125px no-repeat;}
+.visual_eco_info.t1 .box2 dl {position:absolute;top:170px;left:178px;font-size:15px;}
+.visual_eco_info.t1 .box2 dt {display:none;}
+.visual_eco_info.t1 .box2 dd {display:inline-block;width:280px;}
+.visual_eco_info.t1 .box2 .sale {position:absolute;bottom:232px;right:15px;font-size:22px;line-height:25px;font-weight:bold;color:#fff;}
+.visual_eco_info.t1 .box2 .ex {position:absolute;bottom:-29px;right:-34px;font-size:12px;color:#555;}
+
+/* ECO마일리지사진전송 : 1 */
+.visual_eco_info .data_table_1 {overflow:hidden;display:block;margin:35px auto 0;padding:196px 0 0 0;width:980px;height:0;background:url(../images/contents/visual_eco_info5.png) no-repeat 0 100%;border:0;}
+.visual_eco_info .data_table_2 {overflow:hidden;display:block;margin:35px auto 0;padding:196px 0 0 0;width:980px;height:0;background:url(../images/contents/visual_eco_info6.png) no-repeat 0 100%;border:0;}
+.visual_eco_info .data_table_3 {overflow:hidden;display:block;margin:35px auto 0;padding:196px 0 0 0;width:980px;height:0;background:url(../images/contents/visual_eco_info7.png) no-repeat 0 100%;border:0;}
+.visual_eco_info .data_table_4 {overflow:hidden;display:block;margin:35px auto 0;padding:179px 0 0 0;width:980px;height:0;background:url(../images/contents/visual_eco_info8.png) no-repeat 0 100%;border:0;}
+.visual_eco_info .data_table_5 {overflow:hidden;display:block;margin:35px auto 0;padding:176px 0 0 0;width:980px;height:0;background:url(../images/contents/visual_eco_info10.png) no-repeat 0 100%;border:0;}
+.visual_eco_info .data_table_6 {overflow:hidden;display:block;margin:35px auto 0;padding:176px 0 0 0;width:980px;height:0;background:url(../images/contents/visual_eco_info11.png) no-repeat 0 100%;border:0;}
+.visual_eco_info .data_table_7 {overflow:hidden;display:block;margin:35px auto 0;padding:176px 0 0 0;width:980px;height:0;background:url(../images/contents/visual_eco_info12.png) no-repeat 0 100%;border:0;}
+.visual_eco_info .data_table_8 {overflow:hidden;display:block;margin:35px auto 0;padding:176px 0 0 0;width:980px;height:0;background:url(../images/contents/visual_eco_info13.png) no-repeat 0 100%;border:0;}
+
+/* ECO마일리지사진전송 : 2  */
+.visual_eco_info_1 {text-align:center;}
+.visual_eco_info_1 .heading {margin:60px 0 50px;}
+.visual_eco_info_1 .heading h3 {overflow:hidden;margin:0 auto 20px;padding:96px 0 0 0;width:475px;height:0;background:url(../images/contents/visual_eco_info.png) no-repeat 0 0;}
+.visual_eco_info_1 .heading strong {display:block;margin-bottom:20px;font-size:16px;font-weight:lighter;}
+.visual_eco_info_1 .heading em {font-weight:bold;}
+.visual_eco_info_1 .box h4 {overflow:hidden;margin:0 auto 40px;padding:28px 0 0 0;width:264px;height:0;background:url(../images/contents/visual_eco_info.png) no-repeat 0 -97px;}
+.visual_eco_info_1 .box .col2 {overflow:hidden;}
+.visual_eco_info_1 .box .col2 li {float:left;width:50%;border-left:1px solid #e7e7e7;margin-left:-1px;box-sizing:border-box;}
+.visual_eco_info_1 .box .col2 li .tit {overflow:hidden;display:block;margin:0 auto 20px;padding:341px 0 0 0;width:380px;height:0;background:url(../images/contents/visual_eco_info.png) no-repeat 0 -124px;}
+.visual_eco_info_1 .box .col2 li + li .tit {background-position:-380px -124px;}
+.visual_eco_info_1 .box .col2 li strong {font-weight:lighter;font-size:18px;}
+.visual_eco_info_1 .box .col2 li p {margin-top:7px;font-size:13px;}
+.visual_eco_info_1 .data_table {overflow:hidden;display:block;margin:35px auto 0;padding:176px 0 0 0;width:980px;height:0;background:url(../images/contents/visual_eco_info.png) no-repeat 0 100%;border:0;}
+.visual_eco_info_1 .ex {font-size: 12px;color:#555;margin-top: 15px;text-align: right;}
+
+.visual_eco_info_1.t1 h3 {padding: 160px 0 0 0;width:645px;height:0;background:url(../images/contents/visual_eco_info3.png) 0 0 no-repeat;}
+.visual_eco_info_1.t1 .box2 {position:relative;margin:0 auto;width:924px;height:375px;background:url(../images/contents/visual_eco_info2.png) right -125px no-repeat;}
+.visual_eco_info_1.t1 .box2 dl {position:absolute;top:170px;left:178px;font-size:15px;}
+.visual_eco_info_1.t1 .box2 dt {display:none;}
+.visual_eco_info_1.t1 .box2 dd {display:inline-block;width:280px;}
+.visual_eco_info_1.t1 .box2 .sale {position:absolute;bottom:232px;right:15px;font-size:22px;line-height:25px;font-weight:bold;color:#fff;}
+.visual_eco_info_1.t1 .box2 .ex {position:absolute;bottom:-29px;right:-34px;font-size:12px;color:#555;}
+
+/* ECO마일리지사진전송 : 탭3  */
+.list_con2.photo_icon > li {padding-left:120px;}
+.list_con2.photo_icon > li img {position:absolute;right:40px;top:27px;}
+.list_con2.photo_icon > li .con_sub {position:absolute;right:40px;top:50px;}
+.list_con2.photo_icon > li:before {content:'';position:absolute;width:80px;height:80px;left:20px;top:30px;line-height:80px;background:url(../images/contents/icon_photo.png) no-repeat 0 0 ;}
+.list_con2.photo_icon > li + li:before {background-position:-80px 0;}
+.list_con2.photo_icon > li + li + li:before {background-position:-160px 0;}
+.list_con2.photo_icon > li + li + li:before {background-position:-400px 0;}
+.list_con2.photo_icon > li + li + li + li:before {background-position:-240px 0;}
+.list_con2.photo_icon > li + li + li + li + li:before {background-position:-480px 0;}
+.list_con2.photo_icon > li.icon4:before {background-position:-240px 0;}
+.list_con2.photo_icon > li.icon5:before {background-position:-320px 0;}
+.list_con2.photo_icon > li.icon6:before {background-position:-400px 0;}
+.list_con2.photo_icon > li.icon7:before {background-position:-480px 0;}
+.list_con2.photo_icon .form_search {margin-top:25px;}
+
+
+/* ---------------------------------------------------------
+	page : 온라인고객센터 > 자동차사고처리
+--------------------------------------------------------- */
+/* 사고접수 > 사고접수안내 */
+.visual_caraccident .img1 {background:url(../images/contents/visual_bg3.jpg) no-repeat 0 0;}
+.visual_caraccident .img2 {background:url(../images/contents/visual_bg3.jpg) no-repeat -490px 0;}
+.visual_caraccident .img3 {background:url(../images/contents/visual_bg3.jpg) no-repeat -980px 0;}
+
+/* ECO마일리지특별약관 : 연간 주행거리 환산 */
+.area_result .data_table {display:inline-block;width:657px;vertical-align:top;}
+.area_result .result {display:inline-block;padding:50px 0 0 30px;width:308px;height:112px;background:url(../images/contents/img_meter.png) 100% 0 no-repeat;font-size:13px;text-align:center;vertical-align:top;}
+.area_result .result:before, .area_result .result p {display:inline-block;vertical-align:middle;}
+.area_result .result:before {width:0;height:112px;}
+.area_result .result p strong {display:block;font-size:19px;font-weight:bold;color:#f36910;}
+
+/* 손해사정사상담신청 */
+.visual_consult .img1 {background:url(../images/contents/visual_bg3.jpg) no-repeat 0px -340px;}
+.visual_consult .img2 {background:url(../images/contents/visual_bg3.jpg) no-repeat -490px -340px;}
+
+/* ---------------------------------------------------------
+	page : 온라인고객센터 > 입출금조회신청
+--------------------------------------------------------- */
+/* 중도인출금지급 : 중도인출의 효과예시 */
+.form_agree3.info .box .headline {margin-top:0;}
+.form_agree3.info .box .list_img2 {margin:0 0 30px;}
+.form_agree3.info .box .list_img2 > li > strong {font-weight:normal;}
+
+/* 팝업 : 연금저축해약 시 원천징수세 안내사항 */
+.list_con2.visual_icon4 > li {padding-left:120px;}
+.list_con2.visual_icon4 > li:before {content:'';position:absolute;width:80px;height:80px;left:20px;top:50%;margin-top:-40px;line-height:80px;background:url(../images/contents/icon_cancel_case.png) no-repeat 0 0;text-align:center;}
+.list_con2.visual_icon4 > li + li:before {background-position: 0 -80px;}
+.list_con2.visual_icon4 > li + li + li:before {background-position: 0 -160px;}
+
+/* ---------------------------------------------------------
+	page : 온라인고객센터 > 보험금청구
+--------------------------------------------------------- */
+/* 상해/질병보험금청구 > 보험금청구 */
+.tab_content .heading .icon:before,
+.tab_content .heading .icon2:before,
+.tab_content .heading .icon3:before,
+.tab_content .heading .icon4:before {content:'';position:absolute;left:55px;top:50%;display:block;height:32px;margin-top:-16px;background:url(../images/contents/icon_insurance.png) no-repeat 0 0;}
+.tab_content .heading .icon {padding-left:120px;}
+.tab_content .heading .icon2 {padding-left:110px;}
+.tab_content .heading .icon3 {padding-left:105px;}
+.tab_content .heading .icon4 {padding-left:120px;}
+.tab_content .heading .icon:before {left:64px;width:36px;background-position:0 0;}
+.tab_content .heading .icon2:before {left:70px;width:21px;background-position:-46px 0;}
+.tab_content .heading .icon3:before {left:50px;width:34px;background-position:-77px 0;}
+.tab_content .heading .icon4:before {left:76px;width:25px;background-position:-121px 0;}
+.tab_content .heading.on .icon:before {background-position:0 -42px;}
+.tab_content .heading.on .icon2:before {background-position:-46px -42px;}
+.tab_content .heading.on .icon3:before {background-position:-77px -42px;}
+.tab_content .heading.on .icon4:before {background-position:-121px -42px;}
+
+/* 상해/질병보험금청구 > 보험금청구 > 보험금청구안내 */
+.visual_receipt .img1 {background:url(../images/contents/visual_bg3.jpg) no-repeat 0 -1020px;}
+.visual_receipt .img2 {background:url(../images/contents/visual_bg3.jpg) no-repeat -490px -1020px;}
+
+/* 화재보험금청구 > 사고접수안내 */
+.visual_accident .img1 {background:url(../images/contents/visual_bg3.jpg) no-repeat 0 -680px;}
+.visual_accident .img2 {background:url(../images/contents/visual_bg3.jpg) no-repeat 0 -1360px;}
+
+/* 화재보험금청구 > 보험금청구 */
+.box_con1.visual_fire {background:url(../images/contents/visual_bg5.jpg) no-repeat 0 0;}
+
+/* 보험금지급절차안내 */
+.icon_kind6 > li {font-size:16px; padding-right:120px !important;}
+.icon_kind6 > li span:before {content:'';display:inline-block;width:60px;height:48px;margin-right:14px;background:url(../images/contents/icon_kind2.png) no-repeat 0 0;vertical-align:middle;}
+.icon_kind6 > li:first-child span:before {background-position:-180px 0;}
+.icon_kind6 > li + li span:before {background-position:-120px 0;}
+.txt_type1 + ul.list_type2.icon_kind6 {margin:10px 0;}
+.visual_stepinfo .img1 {background:url(../images/contents/visual_bg3.jpg) no-repeat 0 -680px;}
+.visual_stepinfo .img2 {background:url(../images/contents/visual_bg3.jpg) no-repeat 0 -1360px;}
+
+/* ---------------------------------------------------------
+	page : 온라인고객센터 > 대출
+--------------------------------------------------------- */
+/* 보험계약대출 */
+.box_con1.visual_loan {background:url(../images/contents/visual_bg5.jpg) no-repeat 0 -340px;}
+
+.list_con2.icon_loan > li {padding-left:120px;}
+.list_con2.icon_loan > li:before {content:'';position:absolute;width:80px;height:80px;left:20px;line-height:80px;background:url(../images/contents/icon_loan.png) no-repeat 0 0;}
+.list_con2.icon_loan > li + li:before {background-position:-80px 0;}
+.list_con2.icon_loan > li + li + li:before {background-position:-160px 0;}
+.list_con2.icon_loan > li + li + li + li:before {background-position:-240px 0;}
+
+.list_con2.icon_loan3 > li {padding-left:120px;}
+.list_con2.icon_loan3 > li:before {content:'';position:absolute;width:80px;height:80px;left:20px;line-height:80px;background:url(../images/contents/icon_loan.png) no-repeat 0 0;}
+.list_con2.icon_loan3 > li + li:before {background-position:-160px 0;}
+.list_con2.icon_loan3 > li + li + li:before {background-position:-80px 0;}
+.list_con2.icon_loan3 > li + li + li + li:before {background-position:-240px 0;}
+
+/* 보험계약대출 계좌관리 */
+.list_con2.icon_loan2 > li {padding-left:120px;}
+.list_con2.icon_loan2 > li:before {content:'';position:absolute;width:80px;height:80px;left:20px;line-height:80px;background:url(../images/contents/icon_loan2.png) no-repeat 0 0;}
+.list_con2.icon_loan2 > li + li:before {background-position:-80px 0;}
+.list_con2.icon_loan2 > li + li + li:before {background-position:-160px 0;}
+.list_con2.icon_loan2 > li + li + li + li:before {background-position:-240px 0;}
+
+/* 부동산담보대출 : 대출부당광고신고 */
+.box_con1.visual_ad {height:295px;background:url(../images/contents/visual_bg5.jpg) no-repeat 0 -680px;}
+.box_con1.visual_ad:before {height:295px;}
+.box_con1.visual_ad div > strong + span:not(.bar) {font-size:14px;}
+
+/* ---------------------------------------------------------
+	page : 온라인고객센터 > 증명서발급
+--------------------------------------------------------- */
+/* 증명서발급서비스 */
+.list_box.icon1 li h3:after {content:'';display:inline-block;position:absolute;top:36px;right:-10px;width:70px;height:70px;background:url(../images/contents/icon_service.png) no-repeat 0 0;vertical-align:middle;}
+.list_box.icon1 li + li h3:after {background-position:-70px 0;}
+.list_box.icon1 li + li + li h3:after {background-position:-140px 0;}
+.list_box.icon1 li + li + li + li h3:after {background-position:-210px 0;}
+.list_box.icon1 li + li + li + li + li h3:after {background-position:-280px 0;}
+.list_box.icon1 li + li + li + li + li + li h3:after {background-position:-350px 0;}
+
+.list_box.icon2 li h3:after {content:'';display:inline-block;position:absolute;top:36px;right:-10px;width:70px;height:70px;background:url(../images/contents/icon_service.png) no-repeat -420px 0;vertical-align:middle;}
+.list_box.icon2 li + li h3:after {background-position:-480px 0;}
+
+/* 인터넷발급문서 관련 보안프로그램 수동설치 안내  */
+.visual_security1 .visual1 {padding-bottom:505px;background:url(../images/contents/visual_install1.jpg) no-repeat 50% 100%;}
+.visual_security1 .visual2 {margin-top:20px;}
+.visual_security1 .visual2 {padding-bottom:235px;background:url(../images/contents/visual_install2.jpg) no-repeat 50% 100%;}
+
+/* ---------------------------------------------------------
+	page : 온라인고객센터 > 지점/보상센터
+--------------------------------------------------------- */
+.info_map {border:1px solid #ccc;height:480px;}
+.info_map .btn {position:absolute;right:20px;top:20px;z-index:1;}
+.info_map .map {width:100%;height:478px;}
+
+.wrap_box2.w2 > .box {width:53%;width:-webkit-calc(54% - 8px);width:-moz-calc(54% - 8px);width:calc(54% - 8px);}
+.wrap_box2.w2 > .box ~ .box {width:60%;width:-webkit-calc(46% - 8px);width:-moz-calc(46% - 8px);width:calc(46% - 8px);}
+.wrap_box2.w2 .box_con4 {padding:20px 29px 0;}
+.wrap_box2.w2 .box_con4 > .con {height:610px;}
+.wrap_box2.w2 .box_con4 > .con:first-child {padding-bottom:0;height:540px;}
+.wrap_box2.w2 > .box .nodata {height:588px;line-height:588px;}
+.wrap_box2.w2 .info_map {height:610px;}
+.wrap_box2.w2 .info_map .map {height:608px;}
+
+/* 아이콘설정 : 홈페이지 가능업무 */
+.icon_kind3 ul > li a {position:relative;padding-left:55px;}
+.icon_kind3 ul > li a:before {content:'';position:absolute;width:50px;height:50px;left:0;top:50%;margin-top:-25px;background:url(../images/contents/icon_kind.png) no-repeat 0 0;text-align:center;}
+.icon_kind3 ul > li .ic1:before {background-position:0 0;}
+.icon_kind3 ul > li .ic2:before {background-position:-50px 0;}
+.icon_kind3 ul > li .ic3:before {background-position:-300px 0;}
+.icon_kind3 ul > li .ic4:before {background-position:-250px 0;}
+.icon_kind3 ul > li .ic5:before {background-position:-250px 0;}
+
+/* 아이콘설정 : 스마트인슈 가능업무 */
+.icon_kind4 ul > li span {position:relative;display:inline-block;padding-left:55px;}
+.icon_kind4 ul > li span:before {content:'';position:absolute;width:50px;height:50px;left:0;top:50%;margin-top:-25px;background:url(../images/contents/icon_kind.png) no-repeat 0 0;text-align:center;}
+.icon_kind4 ul > li .ic2:before {background-position:-50px 0;}
+.icon_kind4 ul > li .ic3:before {background-position:-550px 0;}
+.icon_kind4 ul > li .ic4:before {background-position:-100px 0;}
+
+/* 아이콘설정 : 스마트차도리 가능업무 */
+.icon_kind5 ul > li span {position:relative;display:inline-block;padding-left:55px;}
+.icon_kind5 ul > li span:before {content:'';position:absolute;width:50px;height:50px;left:0;top:50%;margin-top:-25px;background:url(../images/contents/icon_kind.png) no-repeat 0 0;text-align:center;}
+.icon_kind5 ul > li .ic1:before {background-position:-150px 0;}
+.icon_kind5 ul > li .ic2:before {background-position:-400px 0;}
+.icon_kind5 ul > li .ic3:before {background-position:-450px 0;}
+.icon_kind5 ul > li .ic4:before {background-position:-500px 0;}
+
+.info_qrcode dt, .info_qrcode dd {display:inline-block;vertical-align:middle;}
+.info_qrcode dt {margin-right:15px;font-size:12px;}
+.info_qrcode dd img {width:66px;height:66px;}
+
+/* 팝업 : 지정협력업체(HRP) 서비스 안내 */
+.list_con2.icon_hrp > li {padding-left:110px;}
+.list_con2.icon_hrp > li:before {content:'';position:absolute;width:80px;height:80px;left:20px;top:50%;margin-top:-40px;background:url(../images/contents/icon_hrp.png) no-repeat 0 0;text-align:center;}
+.list_con2.icon_hrp > li + li:before {background-position:-80px 0;}
+.list_con2.icon_hrp > li + li + li:before {background-position:-160px 0;}
+.list_con2.icon_hrp > li + li + li + li:before {background-position:-240px 0;}
+.list_con2.icon_hrp > li + li + li + li + li:before {background-position:-320px 0;}
+
+/* ---------------------------------------------------------
+	page : 온라인고객센터 > 기타
+--------------------------------------------------------- */
+.page_mobileinfo .box_type3 {padding:40px 40px 50px 190px;font-size:16px;background:url(../images/contents/app_tit_bg.png) no-repeat 40px 40px;}
+.page_mobileinfo .box_type3.cha {background:url(../images/contents/appCha_tit_bg.png) no-repeat 40px 40px;}
+.page_mobileinfo .tit_sub1.line {padding-top:55px;border-top:1px solid #e7e7e7;}
+.page_mobileinfo .tit_sub2.line {margin-top:60px;padding-top:55px;border-top:1px solid #e7e7e7;}
+.page_mobileinfo .visual_con {margin-top:25px;}
+
+/* ---------------------------------------------------------
+	page : 온라인고객센터 > 과실비율 상담  추가 2018.09.28
+--------------------------------------------------------- */
+.icon_car > li span {display:block;margin-bottom:7px;}
+.icon_car > li span:before {content:'';display:block;margin: 13px auto 13px;width:60px;height:48px;background:url(../images/contents/icon_car.png) no-repeat 0 0;}
+.icon_car > li + li span:before {background-position:-60px 0;}
+.icon_car > li + li + li span:before {background-position:-120px 0;}
+.icon_car > li + li + li + li span:before {background-position:-180px 0;}
+
+
+/* ---------------------------------------------------------
+	page : 온라인고객센터  추가 2018.10.25
+--------------------------------------------------------- */
+.icon_car_1 > li span {display:block;margin-bottom:7px;}
+.icon_car_1 > li span:before {content:'';display:block;margin: 13px auto 13px;width:60px;height:48px;background:url(../images/contents/icon_car_1.png) no-repeat 0 0;}
+.icon_car_1 > li + li span:before {background-position:-60px 0;}
+.icon_car_1 > li + li + li span:before {background-position:-120px 0;}
+.icon_car_1 > li + li + li + li span:before {background-position:-180px 0;}
+
+/* ---------------------------------------------------------
+	page : 고객라운지 > ARS안내
+--------------------------------------------------------- */
+.info_telnum {position:relative;}
+.info_telnum > ul {overflow:hidden;margin:13px 0 0;padding:53px 0 53px 29%;}
+.info_telnum > ul:before {content:'';display:block;position:absolute;top:53px;left:66%;bottom:50px;width:0;border-left:1px dashed #ccc;}
+.info_telnum > ul > li {float:left;position:relative;display:inline-block;width:39%;padding:0 0 0 11%;clear:both;}
+.info_telnum > ul > li + li {margin:15px 0 0;}
+.info_telnum > ul > li > strong {overflow:hidden;display:inline-block;margin:0 7px 0 -38px;padding-left:28px;width:0;height:28px;background:url(../images/contents/icon_number.png) no-repeat 0 0;vertical-align:top;}
+.info_telnum > ul > li > strong + span {display:inline-block;vertical-align:middle;font-weight:bold;}
+.info_telnum > ul > li > .txt_type2 > li {padding-left:35px;}
+.info_telnum > ul > li > .txt_type2 > li > strong:first-child {float:left;margin:0 0 0 -25px;}
+.info_telnum > ul > li.n2 > strong {background-position:-28px 0;}
+.info_telnum > ul > li.n3 > strong {background-position:-56px 0;}
+.info_telnum > ul > li.n4 > strong {background-position:-84px 0;}
+.info_telnum > ul > li.n5 > strong {background-position:-112px 0;}
+.info_telnum > ul > li.n6 > strong {background-position:-140px 0;}
+.info_telnum > ul > li.n7 > strong {background-position:-168px 0;}
+.info_telnum > ul > li.n8 > strong {background-position:-196px 0;}
+.info_telnum > ul > li.n9 > strong {background-position:-224px 0;}
+.info_telnum > ul > li.n0 > strong {background-position:-252px 0;}
+.info_telnum > ul > li.n6, .info_telnum > ul > li.n6 ~ li {float:none;}
+.info_telnum > ul > li.n6 {margin:0;}
+
+.info_telnum > .number {position:absolute;top:56px;left:45px;width:254px;height:368px;z-index:1;background:url(../images/contents/visual_phone.png) no-repeat 0 0;-webkit-transition:top 0.4s ease;-moz-transition:top 0.4s ease;-o-transition:top 0.4s ease;transition:top 0.4s ease;}
+.info_telnum > .number > em {display:none;}
+.info_telnum > .number > span {position:absolute;left:50%;overflow:hidden;display:inline-block;padding-left:33px;width:0;height:33px;background:url(../images/contents/visual_phone_num.png) no-repeat 0 0;visibility:hidden;animation-name:telAni;-webkit-animation-name:telAni;animation-duration:0.5s;-webkit-animation-duration:0.5s;animation-timing-function:linear;-webkit-animation-timing-function:linear;animation-fill-mode:forwards;}
+.info_telnum > .number > span.n1 {top:122px;margin-left:-63px;background-position:0 0;animation-delay:1.0s;animation-iteration-count:1;-webkit-animation-iteration-count:1;}
+.info_telnum > .number > span.n5 {top:163px;margin-left:-16px;background-position:-33px 0;animation-delay:1.5s;animation-iteration-count:1;-webkit-animation-iteration-count:1;}
+.info_telnum > .number > span.n6 {top:163px;margin-left:31px;background-position:-66px 0;animation-delay:2.0s;animation-iteration-count:2;-webkit-animation-iteration-count:2;}
+.info_telnum > .number > span.n8 {top:204px;margin-left:-16px;;background-position:-99px 0;animation-delay:3.0s;animation-iteration-count:1;-webkit-animation-iteration-count:1;}
+.info_telnum > .number > span.n0 {top:245px;margin-left:-16px;background-position:-132px 0;animation-delay:3.5s;animation-iteration-count:3;-webkit-animation-iteration-count:3;}
+
+@keyframes telAni{
+	0% {visibility:visible;}
+	50% {visibility:hidden;}
+}
+
+@-webkit-keyframes telAni{
+	0% {visibility:visible;}
+	50% {visibility:hidden;}
+}
+
+/* ---------------------------------------------------------
+	page : 고객라운지 > 상담신청
+--------------------------------------------------------- */
+.box_book {overflow:hidden;margin:60px 0 0;height:432px;padding:0 7px;background:url(../images/com/bg_book.png) no-repeat 0 0;}
+.box_book .con {float:left;width:373px;padding:57px 60px;}
+.box_book .con .tit {position:relative;}
+.box_book .con .tit:after {content:'';position:absolute;bottom:0;left:0;display:block;width:50px;height:2px;background-color:#f36910;}
+.box_book .con .tit + p {margin-top:27px;color:#666;}
+.box_book .con .tit + p strong {color:#333;}
+.box_book .con .form_con2:first-child {margin-top:-10px;}
+
+.box_book.consulting .tit {overflow:hidden;height:0;padding:172px 0 0;background:url(../images/contents/txt_consulting.png) no-repeat 0 0;}
+
+/* 상담신청 */
+.visual_counselaccident .img1 {background:url(../images/contents/visual_bg17.jpg) no-repeat 0 0;}
+.visual_counselaccident .img2 {background:url(../images/contents/visual_bg17.jpg) no-repeat -491px 0;}
+.visual_counselaccident .img3 {background:url(../images/contents/visual_bg17.jpg) no-repeat 0 -340px;}
+.visual_counselaccident .img4 {background:url(../images/contents/visual_bg17.jpg) no-repeat -491px -340px;}
+
+
+/* ---------------------------------------------------------
+	page : 고객라운지 > 이벤트
+--------------------------------------------------------- */
+/* 포인트이벤트 공통 : 이벤트응모상품 이미지영역 */
+.info_pro {margin:0 0 15px;}
+.info_pro dt {position:absolute;left:-9999px;}
+.info_pro dd {text-align:center;}
+.info_pro dd img {width:180px;height:180px;}
+.mes + .info_pro {margin-top:-45px;}
+
+/* 포인트이벤트 : 이벤트차감안내 */
+.mes_event1 {overflow:hidden;position:relative;text-align:center;font-size:26px;line-height:36px;}
+.mes_event1 em {color:#f36910;font-weight:normal;}
+
+/* 포인트이벤트 : 개인정보위탁동의 */
+.event_agree .mes_top {margin:0 0 20px;}
+.event_agree .mes_top strong, .event_agree .mes_top span {display:block;position:relative;overflow:hidden;height:0;margin:0 auto;background:url(../images/contents/event_txt1.png) no-repeat 0 0;}
+.event_agree .mes_top strong {padding-top:31px;width:221px;margin-bottom:20px;}
+.event_agree .mes_top span {padding-top:33px;width:342px;background-position:0 -50px;}
+.event_agree h4 {margin:25px 0 10px;}
+.event_agree .form_agree3 .box.custom-scroll {height:58px;}
+
+/* 포인트이벤트 : 이벤트응모중 */
+.mes_event2 {position:relative;overflow:hidden;margin:0 auto 20px;padding-left:300px;width:0;height:381px;background:url(../images/contents/event_txt2.png) no-repeat 0 0;}
+.mes_event2:after {position:absolute;top:81px;left:0;content:'';display:inline-block;width:300px;height:300px;background:url(../images/contents/loding1.gif) no-repeat 0 0;}
+
+/* 포인트이벤트 : 응모결과 */
+.event_result {position:relative;margin:0 auto;}
+.event_result .mes {overflow:hidden;height:0;background:url(../images/contents/event_result.png) no-repeat 50% 0;}
+
+.event_result.result1 .mes {padding-top:150px;background-position:50% -286px;}
+.event_result.result1 .info_eventpro {margin-top:-60px;}
+.event_result.result1 .form {margin:30px 0;}
+.event_result.result1 .form .textarea {height:4.5em;border-color:#b7b7b7;}
+
+.event_result.result2 .mes {padding-top:286px;background-position:50% 0;}
+
+/* 포인트이벤트 : 포인트 적립기준 */
+.event_pointinfo .mes_top strong, .event_pointinfo .mes_top span {display:block;height:0;position:relative;overflow:hidden;margin:0 auto 20px;background:url(../images/contents/event_point.png) no-repeat 0 0;}
+.event_pointinfo .mes_top strong {padding-top:31px;width:206px;}
+.event_pointinfo .mes_top span {padding-top:34px;width:526px;background-position:0 -50px;}
+.event_pointinfo .data_table {font-size:12px;}
+.event_pointinfo .data_table table th, .pop_modal1 .point .data_table table td {height:auto;border-left:1px solid #e7e7e7;}
+.event_pointinfo .data_table table th:first-child {border-left:0;}
+.event_pointinfo .data_table table td {padding:7px 0;}
+.event_pointinfo .tbl_data3 a {text-decoration:none;}
+.event_pointinfo .info {position:relative;overflow:hidden;margin-top:20px;padding-top:150px;height:0;background:url(../images/contents/event_point.png) no-repeat 0 -94px;}
+
+/* ---------------------------------------------------------
+	page : 고객라운지 > MY 포인트
+--------------------------------------------------------- */
+.txt_point:before {content:'';display:inline-block;overflow:hidden;width:20px;height:0;margin:-6px 8px 0 0;padding:20px 0 0;vertical-align:middle;background:url(../images/com/icon_set1.png) no-repeat -157px -49px;}
+
+.box_summary {position:relative;margin:0 0 50px;padding:0 0 0 250px;border:1px solid #ddd;text-align:center;}
+.box_summary .info1 {position:absolute;left:-1px;top:-1px;bottom:-1px;width:191px;padding:23px 30px;background:#f36910;color:#fff;font-size:15px;}
+.box_summary .info1 .heading {padding: 0px 0 10px;margin: 0 0 10px;font-size:16px;line-height:22px;border-bottom:1px solid #f58740;}
+.box_summary .info1 .heading:before {content:'';overflow:hidden;display:block;width:65px;height:65px;margin:0 auto 7px;background:url(../images/com/icon_point.png) no-repeat -105px 0;}
+.box_summary .info1 p strong {font-size:32px;}
+.box_summary .info1 p .txt_point:before {width:26px;padding:26px 0 0;background-position:-160px -100px}
+.box_summary .info2 {min-height:165px;}
+.box_summary .info2 ul {overflow:hidden;position:relative;}
+.box_summary .info2 ul:before, .box_summary .info2 ul:after {content:'';position:absolute;top:0;bottom:0;background:#ebebeb;width:1px;}
+.box_summary .info2 ul:before {left:34%;}
+.box_summary .info2 ul:after {right:33%;}
+.box_summary .info2 ul li {float:left;width:33%;padding:40px 0;text-align:center;}
+.box_summary .info2 ul li:first-child {width:34%;}
+.box_summary .info2 ul li > span, .box_summary .info2 ul li > strong, .box_summary .info2 ul li > em {display:block;}
+.box_summary .info2 ul li > span:first-child {font-weight:bold;}
+.box_summary .info2 ul li > strong {margin:8px 0;font-size:28px;line-height:30px;font-weight:normal;}
+.box_summary .info2 ul li > em {font-size:12px;color:#666;}
+.box_summary .bottom {min-height:30px;background:#ebebeb;padding:14px 0;border-top:1px solid #ddd;}
+.box_summary .bottom .form_date {vertical-align:top;}
+.btn_area2 + .box_summary {margin-top:-20px;}
+
+/* ---------------------------------------------------------
+	page : 고객라운지 > 톡톡라운지란?
+--------------------------------------------------------- */
+/* 톡톡라운지 메인 */
+.board_main {padding:0;}
+.board_main:after {display:none;}
+.board_main > li, .board_main > li a, .board_main > li .img {width:235px;height:325px;}
+.board_main > li a:hover:before {opacity:0.4;filter:alpha(opacity=40);}
+.board_main > li a:hover:after {margin-top:-12px;}
+
+/* ---------------------------------------------------------
+	page : 고객라운지 > 톡톡라운지 > 신상품소개
+--------------------------------------------------------- */
+.list_product {overflow:hidden;}
+.list_product li {position:relative;float:left;}
+.list_product li > a {position:relative;overflow:hidden;display:block;width:333px;height:681px;box-sizing:border-box;}
+.list_product li > a > .bg {position:absolute;top:50%;left:50%;margin:-340.5px 0 0 -166.5px;transition:0.7s ease;z-index:1;}
+.list_product li > a > span {position:absolute;display:block;overflow:hidden;top:50%;left:50%;margin:-52.5px 0 0 -166.5px;width:333px;height:105px;z-index:3;}
+.list_product li > a:hover, .list_product li > a:focus {border:8px solid #f36910;}
+.list_product li > a:hover > .bg , .list_product li > a:focus > .bg {transform:scale(1.1);}
+.list_product li > a:hover:before , .list_product li > a:focus:before {content:'';position:absolute;top:0;left:0;display:block;width:100%;height:100%;background:#000;opacity:0.5;z-index:2}
+
+/* ---------------------------------------------------------
+	page : 고객라운지 > 필요서류다운로드
+--------------------------------------------------------- */
+/* 상단 뷰어설치 아이콘 */
+.visual_file li {font-size:13px;}
+.visual_file li:before {content:'';display:block;width:53px;height:51px;margin:0 auto 13px;background:url(../images/com/icon_file2.png) no-repeat 0 0;}
+.visual_file .file1:before {background-position:-159px 0;}
+.visual_file .file3:before {background-position:-106px 0;}
+.visual_file .file4:before {background-position:-53px 0;}
+.visual_file .file5:before {background-position:0 0;}
+
+/* 하단 바로가기 링크배경설정 */
+.visual_linkbox > li {background:url(../images/contents/visual_bg6.png) no-repeat 0 0;}
+.visual_linkbox > li + li {background-position:-320px 0;}
+.visual_linkbox > li + li + li {background-position:-640px 0;}
+
+/* ---------------------------------------------------------
+	page : 고객라운지 > 부가서비스
+--------------------------------------------------------- */
+/* 제휴카드 */
+.box_visual {position:relative;width:1000px;height:471px;background-color:#f9f9f9;}
+.box_visual:before {content:'';display:block;position:absolute;top:0;right:0;width:323px;height:100%;background-color:#f36910;}
+.box_visual + .tit_sub1 {margin-top:40px;}
+
+.page_visualcard {padding:65px 0 0 60px;}
+.page_visualcard dl {overflow:hidden;}
+.page_visualcard dl dt {position:relative;padding-bottom:40px;margin-bottom:40px;}
+.page_visualcard dl dt:after {content:'';position:absolute;bottom:0;left:0;width:36px;height:4px;background-color:#f36910;}
+.page_visualcard dl dt span {display:block;margin-bottom:15px;font-size:16px;}
+.page_visualcard dl dd {position:relative;float:left;margin-right:20px;padding-left:50px;height:45px;}
+.page_visualcard dl dd:before {content:'';position:absolute;top:0;left:0;width:45px;height:45px;background:url(../images/contents/icon_visualcard.png) no-repeat -4px 0;}
+.page_visualcard dl dd + dd:before {background-position:-45px 0;}
+.page_visualcard dl dd + dd + dd:before {background-position:-90px 0;}
+.page_visualcard dl dd strong {display:block;}
+.page_visualcard .btn_com {margin-top:40px;}
+.page_visualcard .img_area {position:absolute;top:20px;right:0;padding:350px 47px 0 0;width:373px;height:100px;background:url(../images/contents/visual_card.png) no-repeat 0 50%;color:#fff;text-align:right;}
+
+/* ---------------------------------------------------------
+	page : 고객라운지 > 부가서비스
+--------------------------------------------------------- */
+/* 교육서비스 */
+.box_con2.visual_edu {background:url(../images/contents/visual_bg1.png) no-repeat 0 0;}
+.box_con2.visual_edu li:before {display:block;}
+.box_con2.visual_edu li.b1:before {background-position:0 0;}
+.box_con2.visual_edu li.b2:before {background-position:-50px 0;}
+.box_con2.visual_edu li:after {display:none;}
+
+/* 건강 */
+.box_con2.visual_health {background:url(../images/contents/visual_bg1.png) no-repeat 0 -300px;}
+.box_con2.visual_health:after {display:none;}
+.box_con2.visual_health li {width:25%;}
+.box_con2.visual_health li:after {content:'';display:block;position:absolute;left:0;top:50px;bottom:50px;width:1px;height:200px;background:rgba(255,255,255,0.2);}
+.box_con2.visual_health li:before {display:block;}
+.box_con2.visual_health li.b1:before {background-position:0 -50px;}
+.box_con2.visual_health li.b2:before {background-position:-50px -50px;}
+.box_con2.visual_health li.b3:before {background-position:0 -90px;}
+.box_con2.visual_health li.b4:before {background-position:-50px -90px;}
+
+/* 상조 */
+.visual_addservice {position:relative;width:100%;height:300px;color:#fff;background:url(../images/contents/visual_bg1.png) no-repeat 0 -600px;box-sizing:border-box;}
+.visual_addservice:before {content:'';display:inline-block;width:0;height:100%;vertical-align:middle;}
+.visual_addservice .title {position:absolute;top:50%;left:54px;margin-top:-40px;font-size:16px;font-weight:bold;}
+.visual_addservice .title:before {content:'';display:block;margin:0 auto 3px;width:56px;height:55px;background:url(../images/contents/icon_addservice.png) no-repeat 0 0;}
+.visual_addservice .txt_type2 {display:inline-block;padding-left:230px;width:94%;color:#d4d3d3;font-size:14px;vertical-align:middle;box-sizing:border-box;}
+.visual_addservice .txt_type2 > li {margin-top:10px;}
+.visual_addservice .txt_type2 > li:first-child {margin-top:0;}
+.visual_addservice .txt_type2 > li:before {background:#d4d3d3;}
+
+/* 차토리 ECO서비스 : 탭2  */
+.visual_launch {height:590px;overflow:hidden;}
+.visual_launch .list li {height:440px;padding:140px 50px 0 500px;color:#555;background:url(../images/contents/visual_ceo_s1.png) no-repeat 170px 30px;}
+.visual_launch .list li strong {display:block;margin:0 0 20px;font-size:22px;font-weight:bold;color:#f36910;line-height:72px;}
+.visual_launch .list li strong:before, .visual_launch .list li strong:after {content:'';display:block;}
+.visual_launch .list li strong:before {width:64px;height:50px;margin:0 auto 10px;background:url(../images/contents/icon_eco2.png) no-repeat 0 0;}
+.visual_launch .list li strong:after {margin:0 auto;width:20px;height:2px;background:#f36910;}
+.visual_launch .list li.s1 {background-image:url(../images/contents/visual_ceo_s1.png);}
+.visual_launch .list li.s2 {background-image:url(../images/contents/visual_ceo_s2.png);}
+.visual_launch .list li.s3 {background-image:url(../images/contents/visual_ceo_s3.png);}
+.visual_launch .list li.s4 {background-image:url(../images/contents/visual_ceo_s4.png);}
+.visual_launch .list li.s1 strong:before {background-position:0 0;}
+.visual_launch .list li.s2 strong:before {background-position:-64px 0;}
+.visual_launch .list li.s3 strong:before {background-position:-128px 0;}
+.visual_launch .list li.s4 strong:before {background-position:-192px 0;}
+.visual_launch .bx-pager {position:absolute;left:0;right:0;bottom:70px;padding:0 0 0 500px;}
+
+.step_info2.visual_remote li {padding-top:288px;background:url(../images/contents/visual_ceo_phon1.png) 50% 23px no-repeat;}
+.step_info2.visual_remote li + li {background-image:url(../images/contents/visual_ceo_phon2.png);}
+.step_info2.visual_remote li + li + li {background-image:url(../images/contents/visual_ceo_phon3.png);}
+
+/* 차토리 ECO서비스 : 탭3  */
+.list_con2.visual_icon3 > li {padding-left:120px;}
+.list_con2.visual_icon3 > li:before {content:'';position:absolute;width:80px;height:80px;left:20px;top:50%;margin-top:-40px;line-height:80px;background:url(../images/contents/icon_eco.png) no-repeat 0 50%;}
+.list_con2.visual_icon3 > li + li:before {background-position:-80px 0;}
+.list_con2.visual_icon3 > li + li + li:before {background-position:-160px 0;}
+.list_con2.visual_icon3 > li + li + li + li:before {background-position:-240px 0;}
+
+/* 하얀미소플러스 덴탈케어 : 서비스안내 */
+.visual_dental {height:590px;overflow:hidden;}
+.visual_dental .list li {height:440px;padding:140px 50px 0 500px;color:#555;background:url(../images/contents/visual_dental_s1.png) no-repeat 170px 30px;}
+.visual_dental .list li strong {display:block;margin:0 0 20px;font-size:22px;font-weight:bold;color:#f36910;line-height:72px;}
+.visual_dental .list li strong:before, .visual_dental .list li strong:after {content:'';display:block;}
+.visual_dental .list li strong:before {width:64px;height:50px;margin:0 auto 10px;background:url(../images/contents/icon_dental.png) no-repeat 0 0;}
+.visual_dental .list li strong:after {margin:0 auto;width:20px;height:2px;background:#f36910;}
+.visual_dental .list li.s1 {background-image:url(../images/contents/visual_dental_s1.png);}
+.visual_dental .list li.s2 {background:url(../images/contents/visual_dental_s2.png) no-repeat 100px 80px;}
+.visual_dental .list li.s3 {background-image:url(../images/contents/visual_dental_s3.png);}
+.visual_dental .list li.s4 {background-image:url(../images/contents/visual_dental_s4.png);}
+.visual_dental .list li.s5 {background-image:url(../images/contents/visual_dental_s5.png);}
+.visual_dental .list li.s1 strong:before {background-position:0 0;}
+.visual_dental .list li.s2 strong:before {background-position:-64px 0;}
+.visual_dental .list li.s3 strong:before {background-position:-128px 0;}
+.visual_dental .list li.s4 strong:before {background-position:-192px 0;}
+.visual_dental .list li.s5 strong:before {background-position:-256px 0;}
+.visual_dental .bx-pager {position:absolute;left:0;right:0;bottom:70px;padding:0 0 0 500px;}
+
+.list_con2.dental_icon > li {padding-left:130px;}
+.list_con2.dental_icon > li:before {content:'';position:absolute;width:76px;height:75px;left:20px;top:30px;line-height:80px;background:url(../images/contents/icon_dental2.png) no-repeat 0 0 ;background-position:0px 0;}
+
+/* 헬스케어서비스 */
+.box_con6.visual_health {background:url(../images/contents/visual_bg11.png) no-repeat 0 -300px;}
+.box_con6.visual_health:after {display:none;}
+.box_con6.visual_health li {width:2%;}
+.box_con6.visual_health li:after {content:'';display:block;position:absolute;left:0;top:50px;bottom:50px;width:1px;height:200px;background:rgba(255,255,255,0.2);}
+.box_con6.visual_health li:before {display:block;}
+.box_con6.visual_health li.b1:before {background-position:0 -50px;}
+.box_con6.visual_health li.b2:before {background-position:-50px -50px;}
+.box_con6.visual_health li.b3:before {background-position:0 -90px;}
+.box_con6.visual_health li.b4:before {background-position:-50px -90px;}
+
+
+/* ---------------------------------------------------------
+	page : 고객라운지 > 
+--------------------------------------------------------- */
+/* 장애인 고객을 위한 서비스 이용 안내 : 탭1  */
+.list_con2.visual_icon5 > li {padding-left:120px;}
+.list_con2.visual_icon5 > li:before {content:'';position:absolute;width:80px;height:80px;left:20px;top:50%;margin-top:-40px;line-height:80px;background:url(../images/contents/icon_disabled.png) no-repeat 0 50%;}
+.list_con2.visual_icon5 > li + li:before {background-position:-80px 0;}
+.list_con2.visual_icon5 > li + li + li:before {background-position:-160px 0;}
+.list_con2.visual_icon5 > li + li + li + li:before {background-position:-240px 0;}
+.list_con2.visual_icon5 > li + li + li + li + li:before {background-position:-320px 0;}
+.list_con2.visual_icon5 > li.icon4:before {background-position:-240px 0;}
+.list_con2.visual_icon5 > li.icon5:before {background-position:-320px 0;}
+.list_con2.visual_icon5 > li.icon6:before {background-position:-400px 0;}
+
+/* ---------------------------------------------------------
+	page : 고객라운지 > EASY 보장분석 2018.08.08 추가
+--------------------------------------------------------- */
+/* EASY 보장분석 */
+.box_con1.visual_easy {background:url(../images/contents/visual_bg13.jpg) no-repeat 0 -36px;}
+.box_con7.visual_easy_b {background:url(../images/contents/visual_bg14.jpg) no-repeat 0 -36px;margin-top:40px;}
+
+/* ---------------------------------------------------------
+	page : 고객라운지 > 보험용어사전
+--------------------------------------------------------- */
+.info_word dt {margin:0 0 10px;font-size:16px;font-weight:bold;}
+.info_word dd {color:#333;}
+
+/* ---------------------------------------------------------
+	page : 고객라운지 > 	전가족완전보장
+--------------------------------------------------------- */
+.wrap_visualscroll.campaign .list li {height:auto;}
+.wrap_visualscroll.campaign .list li .visual_con {margin:0;}
+.wrap_visualscroll.campaign .bx-controls a:before {left:0;}
+.wrap_visualscroll.campaign .bx-pager {position:relative;display:block;margin-top:-60px;}
+.wrap_visualscroll.campaign .bx-pager > div {margin-left:5px;}
+.wrap_visualscroll.campaign .bx-pager > div:first-child {margin-left:0;}
+.wrap_visualscroll.campaign .bx-pager > div a {padding:0;width:110px;height:2px;}
+.wrap_visualscroll.campaign .bx-pager > div a:before {margin:0;top:0;width:110px;height:2px;border-radius:0;background:#fff;}
+.wrap_visualscroll.campaign .bx-controls-direction a {opacity:0;}
+.wrap_visualscroll.campaign:hover a {opacity:1;}
+.wrap_visualscroll.campaign .bx-controls-direction a {width:50px;height:0;padding:70px 0 0;margin-top:-35px;background:url(../images/com/btn_move5.png) no-repeat 0 0;}
+.wrap_visualscroll.campaign .bx-controls-direction a.bx-next {right:0;background-position:-50px 0;}
+.wrap_visualscroll.campaign .v3_list {position:absolute;bottom:90px;left:50%;margin-left:-485px;}
+.wrap_visualscroll.campaign .v3_list li {display:inline-block;float:left;margin:0 0 20px 20px;padding-top:54px;width:455px;height:223px;background:rgba(255,255,255,0.9);text-align:center;}
+.wrap_visualscroll.campaign .v3_list li .btn_com {margin-top:20px;font-weight:bold;}
+.tit_page.hidden + .wrap_visualscroll.campaign {margin:48px 0 0 !important;}
+
+/* ---------------------------------------------------------
+	page : 회원가입
+--------------------------------------------------------- */
+.con_join {width:940px;height:183px;margin:60px 0 30px !important;background:url(../images/contents/visual_join.png) no-repeat 0 0;padding:377px 0 0 60px;position:relative;}
+.con_join .btn .btn_com {width:136px;height:51px;line-height:51px;font-size:16px;}
+.con_join .info_service {position:absolute;right:0;top:0;width:224px;height:510px;padding:50px 50px 0;}
+.con_join .info_service {overflow:hidden;}
+.con_join .info_service dt {overflow:hidden;height:0;margin:0 0 40px;padding:45px 0 0;text-align:center;background:url(../images/contents/tit_mem.png) no-repeat 50% 0;border-bottom:1px solid rgba(255,255,255,0.1);}
+.con_join .info_service dd {overflow:hidden;float:left;width:50%;text-align:center;margin:0 0 40px;height:0;padding:80px 0 0;background:url(../images/contents/img_servive.png) no-repeat 50% 0;}
+.con_join .info_service dd.serv1 {background-position:50% 0;}
+.con_join .info_service dd.serv2 {background-position:50% -80px;}
+.con_join .info_service dd.serv3 {background-position:50% -160px;}
+.con_join .info_service dd.serv4 {background-position:50% -240px;}
+.con_join .info_service dd.serv5 {background-position:50% -320px;}
+.con_join .info_service dd.serv6 {background-position:50% -400px;}
+
+/* ---------------------------------------------------------
+	page : 로그인
+--------------------------------------------------------- */
+/* 로그인 폼 */
+.login_box {width:880px;margin:20px auto;border:1px solid #ddd;}
+.login_box .box {position:relative;overflow:hidden;}
+.login_box .box:after {content:'';position:absolute;left:50%;top:0;bottom:0;width:1px;background:#e7e7e7;}
+.login_box .box .con {float:left;width:329px;padding:76px 55px 73px;}
+.login_box .box .con h2 {margin:0 0 50px;}
+.login_box .box .con .btn {margin:0 0 17px;padding:0 0 20px;border-bottom:1px solid #e7e7e7;}
+.login_box .box .con .btn a {display:block;}
+.login_box .box .con .btn a + a {margin:10px 0 0;}
+.login_box .box .con .btn:last-child {margin:0;border:0;}
+.login_box .box .con .data_table {margin-bottom:0;border-bottom:0;}
+.login_box .box .con .data_table tbody th {padding:12px 0;}
+.login_box .box .con .data_table tbody td input:only-child {width:199px;}
+.login_box .bottom {position:relative;background:#f4f4f4;padding:36px 40px 36px;border-top:1px solid #ddd;}
+.login_box .bottom .btn {position:absolute;right:40px;top:50%;}
+.login_box .bottom .btn.btn_com {margin-top:-24px;}
+
+/* 로그인 페이지 */
+#content.page_login {width:100%;}
+
+.page_login .tit_page {position:absolute;left:-9999px;top:-9999px;z-index:-1;}
+.page_login .section {background:#f0efed;padding:50px 0;}
+.page_login .section ~ .section {width:880px;margin:0 auto;padding:40px 0 0;background:#fff;}
+.page_login .section ~ .section .tit_sub1 {margin-top:0;}
+.page_login .login_box {border:0;margin:0 auto;}
+.page_login .login_box .box:after {display:none;}
+.page_login .login_box .con {width:330px;min-height:315px;padding:76px 49px 43px;background:#fff;border:1px solid #dedede;border-radius:10px;}
+.page_login .login_box .con + .con {float:right;}
+.page_login .login_box .box .con h2 {text-align:center;margin:0 0 56px;}
+.page_login .login_box .bottom {margin:20px 0 0;background:#fff;border:1px solid #dedede;border-radius:10px;}
+
+
+/* 팝업 : 공인인증서이용안내 */
+.visual_certification:after {content:'';display:block;width:100%;margin:10px 0 0;}
+.visual_certification.visual1:after {height:306px;background:#d8d7d5 url(../images/contents/img_certi4_1.png) no-repeat 50% 100%;}
+.visual_certification.visual2:after {height:330px;background:#e5e5e5 url(../images/contents/img_certi4_2.png) no-repeat 50% 100%;}
+.visual_certification.visual3:after {height:420px;background:#dadada url(../images/contents/img_certi4_3.png) no-repeat 50% 100%;}
+
+/* ---------------------------------------------------------
+	page : 기타제도
+--------------------------------------------------------- */
+/* 가지급보험금제도안내 */
+.icon_kind1 > li span:before {content:'';display:inline-block;width:44px;height:32px;margin-right:14px;background:url(../images/contents/icon_kind1.png) no-repeat -44px 0;vertical-align:middle;}
+.icon_kind1 > li:first-child span:before {background-position:0 0;}
+
+/* 휴면보험금안내 */
+.icon_kind2 > li span {display:block;margin-bottom:7px;}
+.icon_kind2 > li span:before {content:'';display:block;margin:0 auto 13px;width:60px;height:48px;background:url(../images/contents/icon_kind2.png) no-repeat 0 0;}
+.icon_kind2 > li + li span:before {background-position:-60px 0;}
+.icon_kind2 > li + li + li span:before {background-position:-120px 0;}
+.icon_kind2 > li + li + li + li span:before {background-position:-180px 0;}
+
+/* 영업가족계약안내 */
+.page_family {position:relative;min-width:1000px;min-height:850px !important;height:100%;background:#423e3c url(../images/contents/visual_family.jpg) no-repeat 50% 50%;text-align:center;}
+.page_family:before {content:'';display:inline-block;width:0;height:100%;vertical-align:middle;}
+.page_family #content {display:inline-block;padding:0 0 88px;width:auto;vertical-align:middle;text-align:center;}
+.page_family h1 {overflow:hidden;height:130px;padding:0;background:url(../images/contents/tit_family.png) no-repeat 50% 100%;text-align:center;}
+.page_family h1 .logo {display:block;margin:0 auto 82px;overflow:hidden;width:190px;height:0;padding:49px 0 0;background:url(../images/com/logo.png) no-repeat 0 -144px;}
+.page_family .con {display:block;margin:100px auto 0;overflow:hidden;width:645px;height:0;padding:183px 0 0;background:url(../images/contents/family_step.png) no-repeat 0 0;}
+.page_family .btn_area1 {margin-top:87px;}
+.page_family .btn_com {min-width:208px;line-height:52px;font-size:16px;}
+.page_family .btn_area1 > p {margin-top:20px;color:#fff;font-size:12px;}
+.page_family .bottom {position:absolute;bottom:18px;left:0;right:0;font-size:12px;color:#fff;color:rgba(255,255,255,0.8);}
+.page_family .bottom p {margin-top:18px;font-size:11px;}
+
+/* ---------------------------------------------------------
+	page : My 한화
+--------------------------------------------------------- */
+
+/* ---------------------------------------------------------
+	page : 공시실
+--------------------------------------------------------- */
+/* 상품공시 > 상품공시실안내 > 보험안내서 */
+.visual_notice1 {overflow:hidden;margin:0 0 15px;padding:190px 0 0;height:0;text-align:center;background:url(../images/contents/visual_notice1.png) no-repeat 0 0;}
+
+/* 상품공시 > 보험상품공시 */
+.wrap_box3 > .box .info_data1 {height:295px;padding:0 15px 155px;}
+.wrap_box3 > .box .info_data1 .btn + dd {position:absolute;left:15px;right:15px;bottom:15px;}
+
+/* 상품공시 > 연금저축공시 > 계좌이체수수료 */
+.visual_notice2 {overflow:hidden;height:0;border:1px solid #ccc;padding:458px 0 0;background:url(../images/contents/visual_notice2.jpg) no-repeat 0 0;}
+.visual_notice3 {overflow:hidden;height:0;border:1px solid #ccc;padding:425px 0 0;background:url(../images/contents/visual_notice3.png) no-repeat 50% 40px;}
+
+/* ---------------------------------------------------------
+	page : 소비자보호
+--------------------------------------------------------- */
+/* 금융소비자보호체계 */
+.constitution.cs h2 {height:205px;}
+.page_notice.cs {padding-top:0 !important;}
+.box_con3.cs1 {height:280px;padding: 90px 30px;margin-bottom:-140px;background:url(../images/contents/visual_bg2.png) no-repeat 0 0;}
+.box_con3.cs2 {height:280px;padding: 90px 30px;margin-bottom:-140px;background:url(../images/contents/visual_bg9.png) no-repeat 0 0;}
+.box_con3.cs3 {height:280px;padding: 90px 30px;margin-bottom:-140px;background:url(../images/contents/visual_bg10.png) no-repeat 0 0;}
+.box_con3.cs4 {height:280px;padding: 90px 30px;margin-bottom:-140px;background:url(../images/contents/visual_bg15.png) no-repeat 0 0;}
+.area_view.cs dl {height:1030px}
+.area_view.cs dt {width:650px;padding:0 140px 0px 0 !important;}
+.area_view.cs dt.he {min-height:85px;}
+.area_view.cs dt .img {width: 80px !important;height: 80px !important;}
+.area_view.cs dd {margin-bottom: 50px;padding-bottom: 40px;border-bottom: 1px solid #e5d1ae;}
+.area_view.cs dd:last-child {border-bottom:0;}
+
+/* 금융소비자의소리 */
+.icon_voice ul > li span {position:relative;display:inline-block;padding-left:55px;}
+.icon_voice ul > li span:before {content:'';position:absolute;width:50px;height:50px;left:0;top:50%;margin-top:-25px;background:url(../images/contents/icon_voice.png) 0 0 no-repeat;text-align:center;}
+.icon_voice ul > li .ic2:before {background-position:-50px 0;}
+.icon_voice ul > li .ic3:before {background-position:-100px 0;}
+.icon_voice ul > li .ic4:before {background-position:-150px 0;}
+
+/* 완전가입정보 */
+.perfect_ceo p:before {content:'';position:absolute;top:70px;display:block;width:706px;height:71px;margin:0 0 0 135px;background:url(../images/contents/perfect_tit.png) 0 0 no-repeat;}
+.perfect_ceo h2 {background:no-repeat;height:0 !important;}
+.perfect_ceo h2:after {height:0px !important;}
+.perfect_ceo .video {width:780px;height:415px;background:#e4e4e4;margin:0 auto;}
+
+.perfect_tip {overflow:hidden;margin:50px 77px;}
+.perfect_tip li {position:relative;float:left;padding-right:12px;}
+
+.step_info2.perfect {width:100%;position:relative;padding:0;text-align:center;border:1px solid #ccc;box-sizing:border-box;padding:25px 0;}
+.step_info2.perfect > li {width:auto;padding:0;border:0;}
+.step_info2.perfect > li > div {padding:25px 0;min-height:0;vertical-align:top;}
+.step_info2.perfect > li:before {content:'';display:block;width:143px;height:132px;margin:0 auto 13px;background:url(../images/com/icon_perfect.png) no-repeat 0 0;}
+.step_info2.perfect .icon1:before {background-position:0px 0;}
+.step_info2.perfect .icon2:before {background-position:-143px 0;}
+.step_info2.perfect .icon3:before {background-position:-286px 0;}
+
+/* 완전가입지원체계 구축 */
+.list_package {text-align:center;padding:40px 0 0;}
+.list_package li {display:inline-block;width:182px;height:182px;border-radius:50%;overflow:hidden;text-align:center;position:relative;color:#f36910;border:1px solid #ccc;}
+.list_package li + li {margin-left:6px;}
+.list_package li strong {position:absolute;top: 105px;left: 68px;}
+.list_package li.ic5 strong {position:absolute;top: 105px;left: 58px;}
+.list_package li > div {display:inline-block;vertical-align:middle;}
+.list_package li:before {content:'';position:absolute;top: 35px;left:55px;display:block;width:80px;height:80px;margin:0 auto 13px;background:url(../images/com/icon_package.png) no-repeat 0 0;}
+.list_package .ic1:before {background-position:0px 0;}
+.list_package .ic2:before {background-position:-80px 0;}
+.list_package .ic3:before {background-position:-158px 0;}
+.list_package .ic4:before {background-position:-240px 0;}
+.list_package .ic5:before {background-position:-322px 0;}
+
+/* ECO마일리지할인형 특별약관 */
+.visual_eco_info_1.t1 h3 {padding: 160px 0 0 0;width:645px;height:0;background:url(../images/contents/visual_eco_info3.png) 0 0 no-repeat;}
+.visual_eco_info_1.t1 h2 {padding: 160px 0 0 0;width:645px;height:0;margin: 15px 180px;background:url(../images/contents/visual_eco_info4.png) 0 0 no-repeat;}
+.visual_eco_info_1.t1 .box3 dl {position:absolute;top:170px;left:178px;font-size:15px;}
+.visual_eco_info_1.t1 .box3 dt {display:none;}
+.visual_eco_info_1.t1 .box3 dd {display:inline-block;width:280px;}
+.visual_eco_info_1.t1 .box3 .sale {position:absolute;bottom:232px;right:15px;font-size:22px;line-height:25px;font-weight:bold;color:#fff;}
+.visual_eco_info_1.t1 .box3 .ex {position:absolute;bottom:-29px;right:-34px;font-size:12px;color:#555;}
+.visual_eco_info_1.t1 .box3 {margin:60px 0 50px;}
+.visual_eco_info_1.t1 .box3 strong {display:relative; margin-bottom:20px;font-size:16px;font-weight:lighter;}
+.visual_eco_info_1.t1 .box3 em {font-weight:bold;}
+
+.visual_eco_info.t1 .box4 {position:relative;margin:0 auto;width:924px;height:375px;background:url(../images/contents/ex_photo6.gif) right -125px no-repeat;}
+.visual_eco_info.t1 .box4 dl {position:absolute;top:170px;left:178px;font-size:15px;}
+.visual_eco_info.t1 .box4 dt {display:none;}
+.visual_eco_info.t1 .box4 dd {display:inline-block;width:280px;}
+.visual_eco_info.t1 .box4 .sale {position:absolute;bottom:232px;right:15px;font-size:22px;line-height:25px;font-weight:bold;color:#fff;}
+.visual_eco_info.t1 .box4 .ex {position:absolute;bottom:-29px;right:-34px;font-size:12px;color:#555;}
+
+.visual_eco_info.t1 .box5 {position:relative;margin:0 auto;width:924px;height:375px;background:url(../images/contents/ex_photo7.gif) right -125px no-repeat;}
+.visual_eco_info.t1 .box5 dl {position:absolute;top:170px;left:178px;font-size:15px;}
+.visual_eco_info.t1 .box5 dt {display:none;}
+.visual_eco_info.t1 .box5 dd {display:inline-block;width:280px;}
+.visual_eco_info.t1 .box5 .sale {position:absolute;bottom:232px;right:15px;font-size:22px;line-height:25px;font-weight:bold;color:#fff;}
+.visual_eco_info.t1 .box5 .ex {position:absolute;bottom:-29px;right:-34px;font-size:12px;color:#555;}
+
+/* 보험가입꿀팁 */
+.list_con2.visual_icon6 > li {padding-left:120px;}
+.list_con2.visual_icon6 > li:before {content:'';position:absolute;width:80px;height:80px;left:20px;top:50%;margin-top:-40px;line-height:80px;background:url(../images/contents/icon_eco3.png) no-repeat 0 50%;}
+.list_con2.visual_icon6 > li + li:before {background-position:-80px 0;}
+.list_con2.visual_icon6 > li + li + li:before {background-position:-160px 0;}
+.list_con2.visual_icon6 > li + li + li + li:before {background-position:-240px 0;}
+
+/* 보험정보목록 */
+.board_img2.info {margin: -50px 0 10px -20px !important;}
+.board_img2.info > li a {border:1px solid #e7e7e7;box-sizing:border-box;}
+
+
+
+
+
+
+

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <title>애드벤처스TF 임베디드보험(CoCOBOL)</title>
+    <link rel="stylesheet" type="text/css" href="/static/css/common.css">
+    <script type="text/javascript" src="/static/js/contract.js"></script>
+</head>
+<body class="chrome">
+<!-- ### layout : skipnav ### -->
+<div id="wrapper" class="">
+	<!-- ### layout : header ### -->
+	<div id="header">
+		<div class="section_header">
+			<a href="/" class="logo">CoCOBOL</a>
+			<h1>Flight Delay Smart Claim</h1>
+		</div>
+    <!-- # 탭 및 현재페이지탭 히든타이틀 -->
+    </div>
+	<div id="container">
+		<div class="tab_type1">
+            <ul>
+                <li><a href="/dash_board">대시보드</a></li>
+				<li><a href="/flight_delay">항공지연</a></li>
+				<li class="on"><a href="/contract">계약조회</a></li>
+                <li><a href="/contract">항공기상정보</a></li>
+            </ul>
+        </div>
+        <!-- ## layout : content ## -->
+		<div id="content">
+			<!-- # 페이지타이틀 # -->
+			<div class="tit_page">
+				<h1>계약조회</h1>
+				<div class="btn">
+					<a href="#none" class="link_icon print">인쇄</a>
+				</div>
+			</div>
+
+			<h2 class="hidden">계약자조회</h2>
+			<!-- # 안내문구 # -->
+			<div class="box_info">
+				<p>※ <strong>일자별 항공편명</strong>입력 시 해당 증권번호와 피보험자가 조회됩니다.</p>
+			</div>
+
+			<!-- # 보험계약목록 : 타이틀 및 탭 # -->
+			<div class="tit_sub1">
+				<h3>계약 목록</h3>
+				<p class="info txt_icon1">조회일자 2022.07.26</p>
+			</div>
+			<fieldset class="form_search2 line">
+				<legend>편명 검색</legend>
+				<input type="text" id="searchText" class="text placeholder holder_on" title="편명 입력" onkeydown="">
+				<button type="button" class="btn_sub1 c2" onclick="">검색</button>
+			</fieldset>
+			<!-- # 보험계약목록 : 정상 # -->
+			<h4 class="hidden">전체</h4>
+			<!-- # 총건수 # -->
+			<p class="txt_cnt">(총 <strong id="data_count">0</strong>건)</p>
+			<!-- 데이터테이블 -->
+			<div class="data_table">
+				<table id="table" summary="계약 목록" class="tbl_row over ui_summary_on">
+					<colgroup>
+                        <col>
+                        <col width="100">
+                        <col width="150">
+                        <col width="150">
+                        <col width="250">
+                        <col width="150">
+					</colgroup>
+					<thead>
+						<tr>
+							<th scope="col">증권번호</th>
+                            <th scope="col">편명</th>
+                            <th scope="col">고객명</th>
+                            <th scope="col">전화번호</th>
+                            <th scope="col">심사</th>
+                            <th scope="col">지급</th>
+						</tr>
+					</thead>
+				</table>
+			</div>
+
+
+			<!-- 테이블하단 문구 -->
+			<p class="txt_type1 small">지급버튼을 클릭하시면 카카오페이를 통해 보험금을 지급할 수 있습니다.</p>
+
+			<!-- # 알아두실 사항 # -->
+			<div class="info_summary1">
+				<h2 class="headline">알아두실 사항</h2>
+				<ul class="txt_type1">
+					<li>조회된 데이터는 CoCOBOL 계약 데이터베이스에서 검색되었습니다.</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!-- ### layout : footer ### -->
+	<!--<div id="footer"></div>-->
+</div>
+</body>
+</html>

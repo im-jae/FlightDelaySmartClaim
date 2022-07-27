@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <title>애드벤처스TF 임베디드보험(CoCOBOL)</title>
+    <link rel="stylesheet" type="text/css" href="/static/css/common.css">
+    <script type="text/javascript" src="/static/js/flight_delay.js"></script>
+</head>
+<body class="chrome">
+<!-- ### layout : skipnav ### -->
+<div id="wrapper" class="">
+	<!-- ### layout : header ### -->
+	<div id="header">
+		<div class="section_header">
+			<a href="/" class="logo">CoCOBOL</a>
+			<h1>Flight Delay Smart Claim</h1>
+		</div>
+    <!-- # 탭 및 현재페이지탭 히든타이틀 -->
+    </div>
+	<div id="container">
+		<div class="tab_type1">
+            <ul>
+                <li><a href="/dash_board">대시보드</a></li>
+				<li class="on"><a href="/flight_delay">항공지연</a></li>
+				<li><a href="/contract">계약조회</a></li>
+                <li><a href="/contract">항공기상정보</a></li>
+			</ul>
+        </div>
+        <!-- ## layout : content ## -->
+		<div id="content">
+			<!-- # 페이지타이틀 # -->
+			<div class="tit_page">
+				<h1>항공지연</h1>
+				<div class="btn">
+					<a href="#none" class="link_icon print">인쇄</a>
+				</div>
+			</div>
+
+			<h2 class="hidden">계약자조회</h2>
+			<!-- # 안내문구 # -->
+			<div class="box_info">
+				<p>※ <strong>120분 이상 지연되어 출발</strong>했거나 현재 출발 대기중인데 지연이 발생하는 항공편만 표기</p>
+			</div>
+
+			<!-- # 보험계약목록 : 타이틀 및 탭 # -->
+			<div class="tit_sub1">
+				<h3>항공기 출발정보 목록</h3>
+				<p class="info txt_icon1">조회일자 2022.07.26</p>
+			</div>
+			<div class="tab_type2">
+				<ul>
+					<li class="on"><a href="#none" onclick="setContractState(this,'all')">전체</a></li>
+					<li><a href="#none" onclick="setContractState(this,'delayOnBoard')">지연출발</a></li>
+					<li><a href="#none" onclick="setContractState(this,'delay')">지연</a></li>
+                    <li><a href="#none" onclick="setContractState(this,'scheduled')">출발예정</a></li>
+                </ul>
+			</div>
+
+			<!-- # 보험계약목록 : 정상 # -->
+			<h4 class="hidden">전체</h4>
+			<!-- # 총건수 # -->
+			<p class="txt_cnt">(총 <strong id="data_count">0</strong>건)</p>
+			<!-- 데이터테이블 -->
+			<div class="data_table">
+				<table summary="항공기 출발정보 목록" class="tbl_row over ui_summary_on">
+					<caption>보험상품목록</caption>
+					<colgroup>
+						<col width="80">
+                        <col>
+                        <col width="100">
+                        <col width="120">
+                        <col width="100">
+                        <col width="100">
+                        <col width="80">
+                        <col width="100">
+                        <col width="100">
+					</colgroup>
+					<thead>
+						<tr>
+							<th scope="col">no</th>
+                            <th scope="col">항공사</th>
+                            <th scope="col">편명</th>
+                            <th scope="col">도착지</th>
+                            <th scope="col">예정시간</th>
+                            <th scope="col">변경시간</th>
+                            <th scope="col">지연시간</th>
+                            <th scope="col">상태</th>
+                            <th scope="col">계약</th>
+						</tr>
+					</thead>
+					<tbody id="result">
+						<tr>
+							<td colspan="8" class="nodata">
+								<p>처리중입니다.</p>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+
+
+			<!-- 테이블하단 문구 -->
+			<p class="txt_type1 small">계약버튼을 클릭하시면 보험계약 상세 내용을 조회하실 수 있습니다.</p>
+
+			<!-- # 알아두실 사항 # -->
+			<div class="info_summary1">
+				<h2 class="headline">알아두실 사항</h2>
+				<ul class="txt_type1">
+					<li>조회된 데이터는 공공데이터포털(https://www.data.go.kr) - 인천국제공항공사_여객편 운항현황(다국어) API 기준으로 작성되었습니다.</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!-- ### layout : footer ### -->
+	<!--<div id="footer"></div>-->
+</div>
+</body>
+</html>

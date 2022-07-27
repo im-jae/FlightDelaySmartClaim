@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <title>애드벤처스TF 임베디드보험(CoCOBOL)</title>
+    <link rel="stylesheet" type="text/css" href="/static/css/common.css">
+    <script type="text/javascript" src="/static/js/dash_board.js"></script>
+</head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+<body class="chrome">
+<!-- ### layout : skipnav ### -->
+<div id="wrapper" class="">
+	<!-- ### layout : header ### -->
+	<div id="header">
+		<div class="section_header">
+			<a href="/" class="logo">CoCOBOL</a>
+			<h1>Flight Delay Smart Claim</h1>
+		</div>
+    <!-- # 탭 및 현재페이지탭 히든타이틀 -->
+    </div>
+	<div id="container">
+		<!--<div class="tab_type1">
+            <ul>
+				<li class="on"><a href="/dash_board">대시보드</a></li>
+				<li><a href="/flight_delay">항공지연</a></li>
+				<li><a href="/contract">계약조회</a></li>
+                <li><a href="/contract">항공기상정보</a></li>
+            </ul>
+        </div>-->
+        <!-- ## layout : content ## -->
+		<div id="content" class="page_submain myhw">
+			<!--  섹션2 //////////////////////////////////////////////////////////////////// -->
+			<div class="section_wrap">
+				<div class="section">
+					<div class="content main_con2">
+						<h2 class="tit_sub1">인천공항 출발현황</h2>
+						<div class="con">
+							<div class="wrap_datascroll">
+								<div class="bx-wrapper" style="max-width: 100%;">
+									<div class="bx-viewport" style="width: 100%; overflow: hidden; position: relative; height: 370px;">
+										<ul class="info_data2" style="width: 515%; position: relative; transition-duration: 0s; transform: translate3d(0px, 0px, 0px);">
+											<li style="float: left; list-style: none; position: relative;">
+												<div class="basic">
+													<strong><div id="timer"></div></strong>
+													<div class="btn">
+														<a href="/flight_delay" class="btn_sub1">상세보기</a>
+													</div>
+												</div>
+												<ul class="detail">
+													<li>
+														<span>전체</span>
+														<strong><div id="total_count"></div></strong>
+													</li>
+													<li>
+														<span>총 지연</span>
+														<strong><div id="delay_count"></div></strong>
+													</li>
+													<li>
+														<span>지연 출발</span>
+														<strong><div id="delay_departureCount"></div></strong>
+													</li>
+													<li>
+														<span>출발 예정</span>
+														<strong><div id="estimated_Count"></div></strong>
+													</li>
+												</ul>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="content w2 main_con5">
+						<div class="tit_sub1">
+							<h2>인천공항 시간별 이륙 현황</h2>
+						</div>
+						<div class="con">
+							<canvas id="bar-chart" width="470px" height="370px"></canvas>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="section">
+				<!-- # MY 보험금청구 현황 # -->
+				<div class="content w2 main_con5">
+					<div class="tit_sub1">
+						<h2>항공사별 출발고객 현황</h2>
+					</div>
+					<div class="con">
+						<canvas id="bar_chart_horizontal" width="490px" height="700px"></canvas>
+					</div>
+				</div>
+				<!-- # MY 대출현황 # -->
+				<div class="content main_con4">
+					<div class="tit_sub1">
+						<h2>보험금 지급이력조회</h2>
+					</div>
+					<!-- # 보험금 지급 이력조회 # -->
+					<div class="con">
+						<div class="wrap_datascroll">
+							<div class="bx-wrapper" style="max-width: 100%;">
+								<div class="bx-viewport" style="width: 100%; overflow: hidden; position: relative; height: 370px;">
+									<ul class="info_data2" style="position: relative; transition-duration: 0s; transform: translate3d(0px, 0px, 0px);">
+										<li style="float: left; list-style: none; position: relative;">
+											<div class="basic">
+												<strong>항공출발지연보상보험 보험금지급</strong>
+												<div class="btn">
+													<a href="https://bill-admin.dozn.co.kr/accumulation/info" class="btn_sub1">더즌</a>
+													<a href="https://payapi-web.dozn.co.kr/v1/proxy/refund/hw#" class="btn_sub1 c3">테스트페이지</a>
+												</div>
+											</div>
+											<ul class="detail">
+												<li>
+													<span>총 지급금액</span>
+													<strong>2,000,000원</strong>
+												</li>
+												<li>
+													<span>수수료</span>
+													<strong>2,300원</strong>
+												</li>
+												<li>
+													<span>예치금 잔액</span>
+													<strong>1,000,000원</strong>
+												</li>
+												<li>
+													<span>정산기준일</span>
+													<strong>2022.06.30</strong>
+												</li>
+											</ul>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>
