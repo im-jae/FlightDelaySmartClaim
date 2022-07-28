@@ -22,5 +22,5 @@ def search_contract():
     sql += " , TB_CTM CTM"
     sql += " WHERE CR.NRD_CTM = CTM.CTMNO"
     # sql += "   AND CR.PLYNO = " + flight_id +" "
-    result = dbConn.dbConn(sql)
+    result = dbConn.dbSelect(sql)
     return result
